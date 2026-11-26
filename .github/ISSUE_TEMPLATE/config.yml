@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem
+    url: https://github.com/IshervonsAI/Gini/blob/main/SECURITY.md
+    about: Please report security problems privately, not as a public issue.
+  - name: General feedback
+    url: mailto:feedback@ishervonsai.eu.org
+    about: Or simply tell Gini "send feedback" inside an IshervonsAI product.

@@ -1,0 +1,38 @@
+name: Bug report
+description: Something does not work as described
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. **Never paste keys, passwords or personal data here: this page is public.**
+  - type: input
+    id: version
+    attributes:
+      label: Gini version (shown on the owner page)
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where do you use Gini?
+      options: [Gini on its own, Inside IVC, Inside another IshervonsAI product]
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Computer
+      options: [Windows 11, Windows 10, macOS (Apple Silicon), macOS (Intel), Linux desktop, Linux server / VPS, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to repeat it

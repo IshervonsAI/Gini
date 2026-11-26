@@ -1,0 +1,14 @@
+name: Idea or request
+description: Something you would like Gini to do
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Gini to do, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who would use it, and how often?
